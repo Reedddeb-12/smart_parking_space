@@ -1,0 +1,51 @@
+{
+  "name": "parkease",
+  "version": "1.0.0",
+  "description": "AI-Based Smart Parking Prediction & Reservation Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "lucide-react": "^0.263.1",
+    "axios": "^1.6.0",
+    "recharts": "^2.10.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5"
+  },
+  "keywords": [
+    "parking",
+    "ai",
+    "machine-learning",
+    "computer-vision",
+    "smart-city",
+    "react",
+    "tailwind"
+  ],
+  "author": "ParkEase Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/parkease.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/parkease/issues"
+  },
+  "homepage": "https://parkease.io"
+}
